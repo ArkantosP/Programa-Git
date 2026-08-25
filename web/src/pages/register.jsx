@@ -331,7 +331,7 @@ function Register() {
                 </label>
                 <FormSelector
                   icon={FaCity}
-                  placeholder={loading ? 'Cargando ciudades...' : 'Selecciona tu ciudad'}
+                  placeholder={citiesLoading ? 'Cargando ciudades...' : 'Selecciona tu ciudad'}
                   options={cities}
                   value={formValues.city}
                   onChange={handleFieldChange('city')}
