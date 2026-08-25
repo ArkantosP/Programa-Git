@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "dashboard": "Inicio",
+    "catalog": "Catálogo",
+    "favorites": "Favoritos",
+    "orders": "Pedidos",
+    "rewards": "Recompensas",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "logout": "Cerrar Sesión"
+  },
+  "sidebar": {
+    "dashboard": "Inicio",
+    "catalog": "Catálogo",
+    "myOrders": "Mis Pedidos",
+    "favorites": "Favoritos",
+    "account": "Mi Cuenta",
+    "settings": "Configuración",
+    "help": "Ayuda y Soporte",
+    "theme": "Tema",
+    "language": "Idioma",
+    "currency": "Moneda",
+    "title": "Categorías",
+    "subtitle": "POSTRES PREMIUM",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "categories": {
+      "all": "Todos los Dulces",
+      "daifuku": "Daifuku",
+      "iceCream": "Helado",
+      "beverages": "Bebidas",
+      "seasonal": "De Temporada"
+    }
+  },
+  "dashboard": {
+    "greeting": "Bienvenido",
+    "hero": {
+      "badge": "EXCLUSIVO DE TEMPORADA",
+      "orderNow": "Ordenar Ahora"
+    },
+    "catalog": {
+      "title": "Nuestro Catálogo",
+      "subtitle": "Alegría artesanal en cada bocado.",
+      "empty": "No se encontraron mochis con tus criterios"
+    },
+    "filters": {
+      "popular": "Popular",
+      "newest": "Más Recientes",
+      "price": "Precio"
+    },
+    "card": {
+      "add": "Agregar"
+    }
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "catalog": "Catálogo"
+    },
+    "notFound": "Producto no encontrado",
+    "badge": "Especial de Temporada",
+    "reviews": "reseñas",
+    "selectFlavor": "Selecciona el Perfil de Sabor",
+    "addToCart": "Agregar al Carrito",
+    "features": {
+      "organic": {
+        "title": "100% Orgánico",
+        "description": "De origen local"
+      },
+      "fresh": {
+        "title": "Fresco Diario",
+        "description": "Hecho cada mañana"
+      },
+      "sweetness": {
+        "title": "Nivel de Dulzura",
+        "description": "Perfectamente balanceado"
+      }
+    },
+    "story": {
+      "title": "El Secreto del Sueño",
+      "description1": "Nuestros maestros artesanos emplean el método tradicional Mochitsuki: un proceso rítmico de golpear arroz al vapor con pesados mazos de madera. Esta técnica ancestral, preservada por generaciones, es lo que le da a nuestro mochi su característica textura elástica y suavidad como nube.",
+      "description2": "Cada producto es elaborado a mano en pocas horas después del amanecer usando solo los mejores ingredientes. Cuidadosamente seleccionados para crear el equilibrio perfecto de sabores.",
+      "link": "Conoce Nuestra Herencia"
+    }
+  },
+  "products": {
+    "strawberryDream": {
+      "name": "Mochi Sueño de Fresa",
+      "shortName": "Sueño de Fresa",
+      "description": "Fresa entera fresca con pasta dulce de frijol rojo",
+      "longDescription": "Una almohada suave como nube de masa de arroz premium infusionada con jugo natural de remolacha, envolviendo una fresa entera madurada al sol y pasta de frijol blanco dulce. Nuestro dulce de temporada insignia.",
+      "tags": {
+        "bestSeller": "Más Vendido",
+        "freshFruit": "Fruta Fresca",
+        "light": "Ligero"
+      }
+    },
+    "mangoSunshine": {
+      "name": "Mochi Sol de Mango",
+      "shortName": "Sol de Mango",
+      "description": "Néctar de mango Alphonso con crema de coco",
+      "longDescription": "Paraíso tropical en cada bocado. Hecho con puré de mango Alphonso dulce y relleno cremoso de coco, envuelto en mochi teñido de naranja vibrante. Un favorito refrescante de verano.",
+      "tags": {
+        "tropical": "Tropical",
+        "summer": "Verano",
+        "fruity": "Afrutado"
+      }
+    },
+    "matchaZen": {
+      "name": "Mochi Zen de Matcha",
+      "shortName": "Zen de Matcha",
+      "description": "Matcha Uji premium con frijol rojo dulce",
+      "longDescription": "Elaborado con auténtico matcha ceremonial Uji de Kioto. El sabor terroso y umami del té verde se combina perfectamente con la suave pasta de frijol azuki. Una delicia japonesa tradicional.",
+      "tags": {
+        "authentic": "Auténtico",
+        "matcha": "Matcha",
+        "traditional": "Tradicional"
+      }
+    },
+    "velvetChocolate": {
+      "name": "Mochi Chocolate Aterciopelado",
+      "shortName": "Chocolate Aterciopelado",
+      "description": "Cacao oscuro y ganache sedoso",
+      "longDescription": "Déjate llevar por nuestro mochi de chocolate premium relleno de rico ganache de cacao oscuro. Hecho con chocolate belga y envuelto en mochi suave y masticable. Un equilibrio perfecto entre amargo y dulce.",
+      "tags": {
+        "popular": "Popular",
+        "chocolateLover": "Amante del Chocolate",
+        "premium": "Premium"
+      }
+    }
+  },
+  "cart": {
+    "title": "Tu Selección",
+    "subtitle": "Revisa tus deliciosos mochis premium antes de finalizar.",
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "text": "¡Agrega algunos deliciosos mochis para comenzar!",
+      "button": "Continuar Comprando"
+    },
+    "item": {
+      "limited": "LIMITADO"
+    },
+    "summary": {
+      "title": "Resumen del Pedido",
+      "subtotal": "Subtotal",
+      "deliveryFee": "Envío",
+      "tax": "Impuesto Estimado",
+      "saving": "Estás Ahorrando",
+      "total": "Total",
+      "promoPlaceholder": "Código Promocional",
+      "promoApply": "Aplicar",
+      "checkout": "Proceder al Pago →",
+      "terms": "Al continuar, aceptas nuestros Términos de Servicio."
+    },
+    "rewards": {
+      "title": "¡Estás a 15 puntos!",
+      "text": "Agrega $5.00 más a tu carrito para desbloquear un daifuku gratis."
+    },
+    "delivery": {
+      "title": "Entrega Rápida",
+      "text": "Llegada estimada en 25-35 minutos"
+    }
+  },
+  "comingSoon": {
+    "title": "Muy Pronto Disponible",
+    "subtitle": "¡Estamos trabajando arduamente para traerte más delicias!",
+    "description": "Esta función está actualmente en desarrollo. Mantente atento a nuevos sabores emocionantes, recompensas y mucho más.",
+    "features": {
+      "newFlavors": {
+        "title": "Nuevos Sabores",
+        "text": "Descubre variedades exclusivas de mochi de temporada elaboradas con ingredientes premium."
+      },
+      "rewards": {
+        "title": "Programa de Recompensas",
+        "text": "Gana puntos con cada compra y desbloquea descuentos especiales y dulces gratis."
+      },
+      "tracking": {
+        "title": "Seguimiento de Pedidos",
+        "text": "Rastrea tus pedidos en tiempo real desde nuestra cocina hasta tu puerta."
+      }
+    },
+    "backToCatalog": "Volver al Catálogo"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Español"
+  }
+}

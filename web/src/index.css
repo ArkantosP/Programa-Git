@@ -1,0 +1,307 @@
+:root {
+  /* Material Design 3 - Michi Mochi (from Stitch Desktop Dashboard) */
+  
+  /* Primary Colors */
+  --primary: #845000;
+  --primary-dark: #673d00;
+  --primary-container: #a2681b;
+  --on-primary: #ffffff;
+  --on-primary-fixed: #2b1700;
+  --on-primary-fixed-variant: #673d00;
+  --primary-fixed: #ffddbb;
+  --primary-fixed-dim: #ffb867;
+  --inverse-primary: #ffb867;
+  
+  /* Secondary Colors */
+  --secondary: #765938;
+  --secondary-container: #fed6ad;
+  --on-secondary: #ffffff;
+  --on-secondary-fixed: #2b1700;
+  --on-secondary-fixed-variant: #5c4123;
+  --on-secondary-container: #795b3a;
+  --secondary-fixed: #ffddbb;
+  --secondary-fixed-dim: #e6c098;
+  
+  /* Tertiary Colors */
+  --tertiary: #006387;
+  --tertiary-container: #237ca5;
+  --on-tertiary: #ffffff;
+  --on-tertiary-fixed: #001e2c;
+  --on-tertiary-fixed-variant: #004c69;
+  --on-tertiary-container: #fcfcff;
+  --tertiary-fixed: #c4e7ff;
+  --tertiary-fixed-dim: #82d0fc;
+  
+  /* Surface Colors */
+  --surface: #fff8f4;
+  --surface-dim: #e4d8ce;
+  --surface-bright: #fff8f4;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #fef1e7;
+  --surface-container: #f8ece2;
+  --surface-container-high: #f3e6dc;
+  --surface-container-highest: #ede0d7;
+  --surface-variant: #ede0d7;
+  --surface-tint: #885200;
+  
+  /* Text Colors */
+  --on-surface: #201b15;
+  --on-surface-variant: #514438;
+  --on-background: #201b15;
+  
+  /* Background */
+  --background: #fff8f4;
+  
+  /* Error */
+  --error: #ba1a1a;
+  --error-container: #ffdad6;
+  --on-error: #ffffff;
+  --on-error-container: #93000a;
+  
+  /* Outline & Border */
+  --outline: #847466;
+  --outline-variant: #d6c3b2;
+  
+  /* Inverse */
+  --inverse-surface: #362f29;
+  --inverse-on-surface: #fbeee4;
+  
+  /* Semantic Aliases for easier use */
+  --heading-color: var(--on-surface);
+  --body-text: var(--on-surface-variant);
+  --text-secondary: var(--outline);
+  --card-bg: var(--surface-container-lowest);
+  --summary-bg: var(--surface-container-low);
+  --border-color: var(--outline-variant);
+  --border-light: var(--surface-container-high);
+  --accent-blue: var(--tertiary);
+  --success-green: #4caf50;
+  --error-red: var(--error);
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(32, 27, 21, 0.08);
+  --shadow-md: 0 4px 16px rgba(32, 27, 21, 0.12);
+  --shadow-lg: 0 6px 24px rgba(132, 80, 0, 0.18);
+
+  /* Legacy variables for backwards compatibility */
+  --text: #625f59;
+  --text-h: #5D4037;
+  --bg: #FFF9F0;
+  --border: #EADBC8;
+  --code-bg: #F4ECE1;
+  --accent: #c18234;
+  --accent-bg: rgba(193, 130, 52, 0.1);
+  --accent-border: rgba(193, 130, 52, 0.5);
+  --social-bg: rgba(244, 236, 225, 0.5);
+  --shadow:
+    rgba(93, 64, 55, 0.1) 0 10px 15px -3px, rgba(93, 64, 55, 0.05) 0 4px 6px -2px;
+
+  --sans: 'Spline Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Spline Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* Dark Mode - Material Design 3 Dark Theme */
+html.dark {
+  /* Primary Colors */
+  --primary: #ffb867;
+  --primary-dark: #d89b4f;
+  --primary-container: #a2681b;
+  --on-primary: #452b00;
+  --on-primary-fixed: #ffddbb;
+  --on-primary-fixed-variant: #d89b4f;
+  --primary-fixed: #ffddbb;
+  --primary-fixed-dim: #ffb867;
+  --inverse-primary: #845000;
+  
+  /* Secondary Colors */
+  --secondary: #e6c098;
+  --secondary-container: #5c4123;
+  --on-secondary: #442b09;
+  --on-secondary-fixed: #ffddbb;
+  --on-secondary-fixed-variant: #e6c098;
+  --on-secondary-container: #ffddbb;
+  --secondary-fixed: #ffddbb;
+  --secondary-fixed-dim: #e6c098;
+  
+  /* Tertiary Colors */
+  --tertiary: #82d0fc;
+  --tertiary-container: #004c69;
+  --on-tertiary: #00344a;
+  --on-tertiary-fixed: #c4e7ff;
+  --on-tertiary-fixed-variant: #82d0fc;
+  --on-tertiary-container: #c4e7ff;
+  --tertiary-fixed: #c4e7ff;
+  --tertiary-fixed-dim: #82d0fc;
+  
+  /* Surface Colors */
+  --surface: #1a1410;
+  --surface-dim: #1a1410;
+  --surface-bright: #413731;
+  --surface-container-lowest: #140f0c;
+  --surface-container-low: #201b15;
+  --surface-container: #25201a;
+  --surface-container-high: #2f2a24;
+  --surface-container-highest: #3b352f;
+  --surface-variant: #51453a;
+  --surface-tint: #ffb867;
+  
+  /* Text Colors */
+  --on-surface: #ede0d7;
+  --on-surface-variant: #d6c3b2;
+  --on-background: #ede0d7;
+  
+  /* Background */
+  --background: #1a1410;
+  
+  /* Error */
+  --error: #ffb4ab;
+  --error-container: #93000a;
+  --on-error: #690005;
+  --on-error-container: #ffdad6;
+  
+  /* Outline & Border */
+  --outline: #9f9080;
+  --outline-variant: #51453a;
+  
+  /* Inverse */
+  --inverse-surface: #ede0d7;
+  --inverse-on-surface: #362f29;
+  
+  /* Semantic Aliases */
+  --heading-color: var(--on-surface);
+  --body-text: var(--on-surface-variant);
+  --text-secondary: var(--outline);
+  --card-bg: var(--surface-container-low);
+  --summary-bg: var(--surface-container);
+  --border-color: var(--outline-variant);
+  --border-light: var(--surface-container-high);
+  --accent-blue: var(--tertiary);
+  --success-green: #66bb6a;
+  --error-red: var(--error);
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 6px 24px rgba(0, 0, 0, 0.7);
+
+  /* Legacy variables */
+  --text: var(--on-surface-variant);
+  --text-h: var(--on-surface);
+  --bg: var(--background);
+  --border: var(--outline-variant);
+  --code-bg: var(--surface-container);
+  --accent: var(--primary);
+  --accent-bg: rgba(255, 184, 103, 0.15);
+  --accent-border: rgba(255, 184, 103, 0.5);
+  --social-bg: rgba(37, 32, 26, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.5) 0 10px 15px -3px, rgba(0, 0, 0, 0.3) 0 4px 6px -2px;
+}
+
+html.dark #social .button-icon {
+  filter: invert(1) brightness(2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Smooth theme transition */
+* {
+  transition: background-color 0.3s ease, 
+              color 0.3s ease, 
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Disable transition for specific properties that should be instant */
+*:focus,
+*:active,
+button,
+input,
+textarea,
+select {
+  transition: background-color 0.3s ease, 
+              color 0.3s ease, 
+              border-color 0.3s ease,
+              box-shadow 0.3s ease,
+              transform 0.2s ease;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}

@@ -1,0 +1,47 @@
+﻿{
+  "project_info": {
+    "project_number": "1044600548905",
+    "project_id": "michimochiapp",
+    "storage_bucket": "michimochiapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044600548905:android:79ef7091a333f27c70b638",
+        "android_client_info": {
+          "package_name": "com.michimochi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044600548905-upskea2qmgo0ms740hoq1vldf8lh7ia4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.michimochi.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1044600548905-m385b4jnpr6h0taldjq7hjriht9nuejc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvbD0n5HeY-jop8TYawvhNAWHPqfaYaSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044600548905-m385b4jnpr6h0taldjq7hjriht9nuejc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

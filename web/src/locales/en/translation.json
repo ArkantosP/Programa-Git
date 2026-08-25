@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "catalog": "Catalog",
+    "favorites": "Favorites",
+    "orders": "Orders",
+    "rewards": "Rewards",
+    "cart": "Cart",
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "catalog": "Catalog",
+    "myOrders": "My Orders",
+    "favorites": "Favorites",
+    "account": "Account",
+    "settings": "Settings",
+    "help": "Help & Support",
+    "theme": "Theme",
+    "language": "Language",
+    "currency": "Currency",
+    "title": "Categories",
+    "subtitle": "PREMIUM DESSERTS",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "categories": {
+      "all": "All Treats",
+      "daifuku": "Daifuku",
+      "iceCream": "Ice Cream",
+      "beverages": "Beverages",
+      "seasonal": "Seasonal"
+    }
+  },
+  "dashboard": {
+    "greeting": "Welcome",
+    "hero": {
+      "badge": "SEASONAL EXCLUSIVE",
+      "orderNow": "Order Now"
+    },
+    "catalog": {
+      "title": "Our Catalog",
+      "subtitle": "Handcrafted joy in every bite.",
+      "empty": "No mochis found with your criteria"
+    },
+    "filters": {
+      "popular": "Popular",
+      "newest": "Newest",
+      "price": "Price"
+    },
+    "card": {
+      "add": "Add"
+    }
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "catalog": "Catalog"
+    },
+    "notFound": "Product not found",
+    "badge": "Seasonal Special",
+    "reviews": "reviews",
+    "selectFlavor": "Select Flavor Profile",
+    "addToCart": "Add to Cart",
+    "features": {
+      "organic": {
+        "title": "100% Organic",
+        "description": "Sourced locally"
+      },
+      "fresh": {
+        "title": "Daily Fresh",
+        "description": "Made every morning"
+      },
+      "sweetness": {
+        "title": "Sweetness Level",
+        "description": "Perfectly balanced"
+      }
+    },
+    "story": {
+      "title": "The Secret of the Dream",
+      "description1": "Our master artisans employ the traditional Mochitsuki method—a rhythmic process of pounding steamed rice with heavy wooden mallets. This ancient technique, preserved for generations, is what gives our mochi its signature elastic pull and cloud-like tenderness.",
+      "description2": "Each product is handcrafted within hours of sunrise using only the finest ingredients. Carefully selected to create the perfect balance of flavors.",
+      "link": "Learn our Heritage"
+    }
+  },
+  "products": {
+    "strawberryDream": {
+      "name": "Strawberry Dream Mochi",
+      "shortName": "Strawberry Dream",
+      "description": "Fresh whole strawberry with sweet red bean paste",
+      "longDescription": "A cloud-like pillow of premium rice dough infused with natural beet juice, enveloping a whole, sun-ripened strawberry and sweet white bean paste. Our signature seasonal treat.",
+      "tags": {
+        "bestSeller": "Best Seller",
+        "freshFruit": "Fresh Fruit",
+        "light": "Light"
+      }
+    },
+    "mangoSunshine": {
+      "name": "Mango Sunshine Mochi",
+      "shortName": "Mango Sunshine",
+      "description": "Alphonso mango nectar with coconut cream",
+      "longDescription": "Tropical paradise in every bite. Made with sweet Alphonso mango purée and creamy coconut filling, wrapped in vibrant orange-tinted mochi. A refreshing summer favorite.",
+      "tags": {
+        "tropical": "Tropical",
+        "summer": "Summer",
+        "fruity": "Fruity"
+      }
+    },
+    "matchaZen": {
+      "name": "Matcha Zen Mochi",
+      "shortName": "Matcha Zen",
+      "description": "Premium Uji matcha with sweet red bean",
+      "longDescription": "Crafted with authentic ceremonial-grade Uji matcha from Kyoto. The earthy, umami-rich green tea flavor pairs perfectly with smooth azuki red bean paste. A traditional Japanese delicacy.",
+      "tags": {
+        "authentic": "Authentic",
+        "matcha": "Matcha",
+        "traditional": "Traditional"
+      }
+    },
+    "velvetChocolate": {
+      "name": "Velvet Chocolate Mochi",
+      "shortName": "Velvet Chocolate",
+      "description": "Dark cocoa & silky ganache",
+      "longDescription": "Indulge in our premium chocolate mochi filled with rich dark cocoa ganache. Made with Belgian chocolate and wrapped in soft, chewy mochi. A perfect balance of bitter and sweet.",
+      "tags": {
+        "popular": "Popular",
+        "chocolateLover": "Chocolate Lover",
+        "premium": "Premium"
+      }
+    }
+  },
+  "cart": {
+    "title": "Your Selection",
+    "subtitle": "Review your premium mochi treats before checkout.",
+    "empty": {
+      "title": "Your cart is empty",
+      "text": "Add some delicious mochi treats to get started!",
+      "button": "Continue Shopping"
+    },
+    "item": {
+      "limited": "LIMITED"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "deliveryFee": "Delivery Fee",
+      "tax": "Estimated Tax",
+      "saving": "You're Saving",
+      "total": "Total",
+      "promoPlaceholder": "Promo Code",
+      "promoApply": "Apply",
+      "checkout": "Proceed to Checkout →",
+      "terms": "By proceeding, you agree to our Terms of Service."
+    },
+    "rewards": {
+      "title": "You're 15 points away!",
+      "text": "Add $5.00 more to your cart to unlock a free daifuku reward."
+    },
+    "delivery": {
+      "title": "Fast Delivery",
+      "text": "Estimated arrival in 25-35 mins"
+    }
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We're working hard to bring you more delicious treats!",
+    "description": "This feature is currently under development. Stay tuned for exciting new flavors, rewards, and much more.",
+    "features": {
+      "newFlavors": {
+        "title": "New Flavors",
+        "text": "Discover exclusive seasonal mochi varieties crafted with premium ingredients."
+      },
+      "rewards": {
+        "title": "Rewards Program",
+        "text": "Earn points with every purchase and unlock special discounts and free treats."
+      },
+      "tracking": {
+        "title": "Order Tracking",
+        "text": "Track your orders in real-time from our kitchen to your doorstep."
+      }
+    },
+    "backToCatalog": "Back to Catalog"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Español"
+  }
+}

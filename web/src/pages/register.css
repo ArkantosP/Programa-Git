@@ -1,0 +1,437 @@
+/* ==========================================================================
+   Desktop User Registration Screen Styles (Figma Node 1:1092)
+   ========================================================================== */
+
+.register-page-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(90deg, #f8ece2 0%, #f8ece2 50%, #fff8f4 50%, #fff8f4 100%);
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Spline Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #201b15;
+}
+
+/* --------------------------------------------------------------------------
+   Lado Izquierdo: Branding & Visual (Sweetness Delivered)
+   -------------------------------------------------------------------------- */
+.register-visual-section {
+  flex: 1;
+  background-color: #f8ece2;
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.register-blur-1 {
+  position: absolute;
+  top: -100px;
+  right: -60px;
+  width: 384px;
+  height: 384px;
+  border-radius: 9999px;
+  background: #845000;
+  opacity: 0.12;
+  filter: blur(48px);
+  pointer-events: none;
+}
+
+.register-blur-2 {
+  position: absolute;
+  bottom: -60px;
+  left: -40px;
+  width: 320px;
+  height: 320px;
+  border-radius: 9999px;
+  background: #765938;
+  opacity: 0.12;
+  filter: blur(48px);
+  pointer-events: none;
+}
+
+.register-visual-content {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.register-hero-img-wrapper {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.register-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0px 20px 30px rgba(132, 80, 0, 0.18));
+  transition: transform 0.3s ease;
+}
+
+.register-hero-img:hover {
+  transform: scale(1.04);
+}
+
+.register-visual-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #845000;
+  margin: 0 0 16px 0;
+  letter-spacing: -1px;
+}
+
+.register-visual-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #514438;
+  margin: 0;
+  max-width: 440px;
+}
+
+/* --------------------------------------------------------------------------
+   Lado Derecho: Formulario de Registro
+   -------------------------------------------------------------------------- */
+.register-form-section {
+  flex: 1;
+  background-color: #fff8f4;
+  padding: 48px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.register-form-container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.register-brand-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.register-logo {
+  height: 48px;
+  object-fit: contain;
+  align-self: flex-start;
+  margin-bottom: 12px;
+}
+
+.register-form-title {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #201b15;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.register-form-subtitle {
+  font-size: 0.95rem;
+  color: #6d5d50;
+  margin: 0;
+}
+
+.register-form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.register-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.register-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #514438;
+}
+
+.register-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.register-input-icon {
+  position: absolute;
+  left: 16px;
+  font-size: 1.1rem;
+  color: #9b8a7c;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.register-input {
+  width: 100%;
+  background: #fef1e7;
+  border: 1px solid #d6c3b2;
+  border-radius: 16px;
+  padding: 13px 44px;
+  font-size: 0.95rem;
+  color: #201b15;
+  outline: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.register-input::placeholder {
+  color: #a89688;
+}
+
+.register-input:focus {
+  background: #ffffff;
+  border-color: #c18234;
+  box-shadow: 0 0 0 4px rgba(193, 130, 52, 0.15);
+}
+
+.register-input.has-error {
+  border-color: #e53e3e;
+  background: #fff5f5;
+}
+
+.register-input.is-valid {
+  border-color: #38a169;
+}
+
+/* Dos columnas para Email + Teléfono y Dirección + Ciudad */
+.register-row-2col {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.register-row-2col .register-input-group {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Custom Selector Ciudad */
+.register-form-section .input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.register-form-section .input-wrapper svg {
+  position: absolute;
+  left: 16px;
+  font-size: 1.1rem;
+  color: #9b8a7c;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.register-form-section .input-wrapper select {
+  width: 100%;
+  background: #fef1e7;
+  border: 1px solid #d6c3b2;
+  border-radius: 16px;
+  padding: 13px 16px 13px 44px !important;
+  font-size: 0.95rem;
+  color: #201b15;
+  outline: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  appearance: none;
+  cursor: pointer;
+}
+
+.register-form-section .input-wrapper select:focus {
+  background: #ffffff;
+  border-color: #c18234;
+  box-shadow: 0 0 0 4px rgba(193, 130, 52, 0.15);
+}
+
+.register-password-toggle {
+  position: absolute;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #9b8a7c;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+  z-index: 2;
+}
+
+.register-password-toggle:hover {
+  color: #201b15;
+}
+
+.register-error-message {
+  font-size: 0.8rem;
+  color: #e53e3e;
+  margin: 2px 0 0 8px;
+}
+
+.register-password-feedback {
+  font-size: 0.825rem;
+  margin: 4px 0 0 8px;
+  font-weight: 500;
+}
+
+.register-password-feedback.is-valid {
+  color: #2f855a;
+}
+
+.register-password-feedback.is-invalid {
+  color: #c53030;
+}
+
+/* Checkbox Términos */
+.register-terms-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.register-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #c18234;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.register-terms-label {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #514438;
+}
+
+.register-terms-link {
+  color: #845000;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Botón Submit */
+.register-submit-btn {
+  background: #c18234;
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0px 10px 20px -3px rgba(132, 80, 0, 0.25);
+  transition: all 0.2s ease;
+}
+
+.register-submit-btn:hover {
+  background: #ad7027;
+  box-shadow: 0px 12px 24px -3px rgba(132, 80, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+.register-submit-btn:active {
+  transform: translateY(0);
+}
+
+/* Link a Login */
+.register-login-prompt {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: #514438;
+}
+
+.register-login-link {
+  font-weight: 700;
+  color: #845000;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.register-login-link:hover {
+  text-decoration: underline;
+}
+
+/* Decoración esquina inferior */
+.register-corner-decoration {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 56px;
+  height: 56px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.register-corner-decoration img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .register-page-container {
+    flex-direction: column;
+    background: #fff8f4;
+  }
+
+  .register-visual-section {
+    min-height: auto;
+    padding: 48px 24px;
+  }
+
+  .register-form-section {
+    min-height: auto;
+    padding: 36px 24px 60px 24px;
+  }
+
+  .register-hero-img-wrapper {
+    width: 180px;
+    height: 180px;
+  }
+
+  .register-row-2col {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

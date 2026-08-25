@@ -1,0 +1,246 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  height: 80px;
+}
+
+.navbar__content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--heading-color);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.navbar__menu-btn:hover {
+  background: var(--summary-bg);
+}
+
+.navbar__menu-btn:active {
+  transform: scale(0.9);
+}
+
+.navbar__brand-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.navbar__brand-text:active {
+  transform: scale(0.95);
+}
+
+.navbar__nav {
+  display: none;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .navbar__nav {
+    display: flex;
+  }
+}
+
+.navbar__nav-link {
+  color: var(--body-text);
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.navbar__nav-link:hover {
+  color: var(--primary);
+}
+
+.navbar__nav-link:active {
+  transform: scale(0.95);
+}
+
+.navbar__nav-link--active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__icon-btn {
+  padding: 0.5rem;
+  color: var(--body-text);
+  background: transparent;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar__icon-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.navbar__icon-btn:hover {
+  background: var(--summary-bg);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__icon-btn:hover::before {
+  opacity: 0.1;
+}
+
+.navbar__icon-btn:active {
+  transform: translateY(0) scale(0.95);
+  transition: all 0.1s ease;
+}
+
+/* Icon rotation animation for theme toggle */
+.navbar__icon-btn svg {
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navbar__icon-btn:hover svg {
+  transform: rotate(20deg) scale(1.1);
+}
+
+.navbar__icon-btn:active svg {
+  transform: rotate(0deg) scale(0.9);
+}
+
+.navbar__cart-btn {
+  position: relative;
+  padding: 0.5rem;
+  color: var(--body-text);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.navbar__cart-btn:hover {
+  background: var(--summary-bg);
+}
+
+.navbar__cart-btn:active {
+  transform: scale(0.9);
+}
+
+.navbar__cart-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--primary);
+  color: white;
+  font-size: 0.625rem;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__user {
+  position: relative;
+}
+
+.navbar__avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  border: 2px solid var(--primary);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.navbar__avatar:active {
+  transform: scale(0.95);
+}
+
+.navbar__menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  min-width: 160px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.navbar__menu-item {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--body-text);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.navbar__menu-item:hover {
+  background: var(--summary-bg);
+  color: var(--heading-color);
+}

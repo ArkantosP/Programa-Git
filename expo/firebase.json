@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "michimochiapp"
+  },
+  "auth": {
+    "authorizedDomains": ["localhost", "auth.expo.io"],
+    "providers": {
+      "emailPassword": true,
+      "googleSignIn": true
+    }
+  }
+}
